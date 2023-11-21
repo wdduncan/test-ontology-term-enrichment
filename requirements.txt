@@ -10,3 +10,5 @@ matplotlib
 mlxtend
 scipy
 statsmodels
+click
+textwrap3
