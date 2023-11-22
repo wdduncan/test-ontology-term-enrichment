@@ -1,0 +1,23 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select 
+	?patient 
+	?class_name 
+	(count(*) as ?count) 
+where {
+    ?subject a owl:NamedIndividual .
+    ?object a owl:NamedIndividual .
+    ?subject ?predicate ?object .
+    
+    ?subject rdf:type ?subject_class .
+    ?object rdf:type ?object_class .
+    
+    filter (?subject_class != ?object_class)
+    filter (?subject_class != owl:NamedIndividual)
+    filter (?object_class != owl:NamedIndividual)
+
+    bind(replace(str(?subject), "http://example.com/cancers.owl/", "") as ?patient)
+    bind(replace(str(?object_class), "http://example.com/cancers.owl/", "") as ?class_name)
+} 
+group by ?patient ?class_name

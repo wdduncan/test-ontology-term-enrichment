@@ -1,0 +1,17 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://example.com/cancers.owl/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+select distinct 
+	?class_name
+	(count(?mid) as ?level) 
+where { 
+    values ?top {:cancer :comorbidity :patient :sex :social_habit}
+    ?mid rdfs:subClassOf* ?top .
+    ?class rdfs:subClassOf* ?mid .
+
+    bind(replace(str(?class), "http://example.com/cancers.owl/", "") as ?class_name)
+} 
+group by ?class_name
+order by desc(?level) ?class_name

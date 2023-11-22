@@ -1,0 +1,17 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://example.com/cancers.owl/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+select distinct 
+	?class_name
+	(group_concat(?super_name; separator=",") as ?ancestor_name)
+where { 
+    ?class a owl:Class .
+    ?class rdfs:subClassOf+ ?super .
+
+    bind(replace(str(?class), "http://example.com/cancers.owl/", "") as ?class_name)
+    bind(replace(str(?super), "http://example.com/cancers.owl/", "") as ?super_name)
+} 
+group by ?class_name
+order by ?class_name
