@@ -1,0 +1,309 @@
+@prefix : <http://example.com/cancers.owl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://example.com/cancers.owl/> .
+
+<http://example.com/cancers.owl> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://example.com/cancers.owl/has_cancer
+:has_cancer rdf:type owl:ObjectProperty ;
+            <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+            <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:34:58Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/has_comorbidity
+:has_comorbidity rdf:type owl:ObjectProperty ;
+                 <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:35:06Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/has_sex
+:has_sex rdf:type owl:ObjectProperty ;
+         <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+         <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:36:27Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/has_social_habit
+:has_social_habit rdf:type owl:ObjectProperty ;
+                  <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                  <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:35:26Z"^^xsd:dateTime .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://example.com/cancers.owl/alchohol_use
+:alchohol_use rdf:type owl:Class ;
+              rdfs:subClassOf :social_habit ;
+              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+              <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:31:00Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/asthma
+:asthma rdf:type owl:Class ;
+        rdfs:subClassOf :comorbidity ;
+        <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+        <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:28:42Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/cancer
+:cancer rdf:type owl:Class ;
+        <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+        <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:05:27Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/castration_resistant_prostate_cancer
+:castration_resistant_prostate_cancer rdf:type owl:Class ;
+                                      rdfs:subClassOf :prostate_cancer ;
+                                      <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                                      <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:09:30Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/castration_sensitive_prostate_cancer
+:castration_sensitive_prostate_cancer rdf:type owl:Class ;
+                                      rdfs:subClassOf :prostate_cancer ;
+                                      <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                                      <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:10:37Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/cervical_cancer
+:cervical_cancer rdf:type owl:Class ;
+                 rdfs:subClassOf :uterine_cancer ;
+                 <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:16:05Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/comorbidity
+:comorbidity rdf:type owl:Class ;
+             <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+             <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:26:35Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/diabetes
+:diabetes rdf:type owl:Class ;
+          rdfs:subClassOf :comorbidity ;
+          <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+          <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:26:42Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_adenocarcinoma
+:fallopian_tube_adenocarcinoma rdf:type owl:Class ;
+                               rdfs:subClassOf :fallopian_tube_cancer ;
+                               <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                               <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:21:14Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_cancer
+:fallopian_tube_cancer rdf:type owl:Class ;
+                       rdfs:subClassOf :female_reproductive_system_cancer ;
+                       <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                       <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:14:14Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_carcinoma
+:fallopian_tube_carcinoma rdf:type owl:Class ;
+                          rdfs:subClassOf :fallopian_tube_cancer ;
+                          <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                          <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:14:48Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_sarcoma
+:fallopian_tube_sarcoma rdf:type owl:Class ;
+                        rdfs:subClassOf :fallopian_tube_cancer ;
+                        <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                        <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:14:59Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/female
+:female rdf:type owl:Class ;
+        rdfs:subClassOf :sex ;
+        <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+        <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:35:57Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/female_reproductive_system_cancer
+:female_reproductive_system_cancer rdf:type owl:Class ;
+                                   rdfs:subClassOf :reproductive_sytem_cancer ;
+                                   <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                                   <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:07:51Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/heaver_drinker
+:heaver_drinker rdf:type owl:Class ;
+                rdfs:subClassOf :alchohol_use ;
+                <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:31:20Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/hypertension
+:hypertension rdf:type owl:Class ;
+              rdfs:subClassOf :comorbidity ;
+              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+              <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:27:17Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/lupus
+:lupus rdf:type owl:Class ;
+       rdfs:subClassOf :comorbidity ;
+       <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+       <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:28:09Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/male
+:male rdf:type owl:Class ;
+      rdfs:subClassOf :sex ;
+      <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+      <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:35:52Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/male_reproductive_system_cancer
+:male_reproductive_system_cancer rdf:type owl:Class ;
+                                 rdfs:subClassOf :reproductive_sytem_cancer ;
+                                 <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:07:45Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/non-drinker
+:non-drinker rdf:type owl:Class ;
+             rdfs:subClassOf :alchohol_use ;
+             <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+             <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:31:53Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/non-smoker
+:non-smoker rdf:type owl:Class ;
+            rdfs:subClassOf :smoking_status ;
+            <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+            <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:30:49Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/patient
+:patient rdf:type owl:Class ;
+         <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+         <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:05:03Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/prostate_cancer
+:prostate_cancer rdf:type owl:Class ;
+                 rdfs:subClassOf :male_reproductive_system_cancer ;
+                 <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:08:05Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/reproductive_sytem_cancer
+:reproductive_sytem_cancer rdf:type owl:Class ;
+                           rdfs:subClassOf :cancer ;
+                           <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                           <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:05:53Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/sex
+:sex rdf:type owl:Class ;
+     <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:35:45Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/smoker
+:smoker rdf:type owl:Class ;
+        rdfs:subClassOf :smoking_status ;
+        <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+        <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:30:39Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/smoking_status
+:smoking_status rdf:type owl:Class ;
+                rdfs:subClassOf :social_habit ;
+                <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:30:34Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/social_drinker
+:social_drinker rdf:type owl:Class ;
+                rdfs:subClassOf :alchohol_use ;
+                <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:31:28Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/social_habit
+:social_habit rdf:type owl:Class ;
+              <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+              <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:30:23Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/testicular_cancer
+:testicular_cancer rdf:type owl:Class ;
+                   rdfs:subClassOf :male_reproductive_system_cancer ;
+                   <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                   <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:11:48Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/testicular_leukemia
+:testicular_leukemia rdf:type owl:Class ;
+                     rdfs:subClassOf :testicular_cancer ;
+                     <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:12:32Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/testicular_lymphoma
+:testicular_lymphoma rdf:type owl:Class ;
+                     rdfs:subClassOf :testicular_cancer ;
+                     <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                     <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:12:58Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/testicular_sarcoma
+:testicular_sarcoma rdf:type owl:Class ;
+                    rdfs:subClassOf :testicular_cancer ;
+                    <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                    <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:13:36Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/type_1_diabetes
+:type_1_diabetes rdf:type owl:Class ;
+                 rdfs:subClassOf :diabetes ;
+                 <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:26:55Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/type_2_diabetes
+:type_2_diabetes rdf:type owl:Class ;
+                 rdfs:subClassOf :diabetes ;
+                 <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                 <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:27:05Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/uterine_cancer
+:uterine_cancer rdf:type owl:Class ;
+                rdfs:subClassOf :female_reproductive_system_cancer ;
+                <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:15:53Z"^^xsd:dateTime .
+
+
+###  http://example.com/cancers.owl/uterine_corpus_cancer
+:uterine_corpus_cancer rdf:type owl:Class ;
+                       rdfs:subClassOf :uterine_cancer ;
+                       <http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0001-9625-1899" ;
+                       <http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-02T23:16:17Z"^^xsd:dateTime .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi

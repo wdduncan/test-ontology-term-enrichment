@@ -1,0 +1,1486 @@
+@prefix : <http://example.com/cancers.owl/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://example.com/cancers.owl/> .
+
+<http://example.com/cancer_instances.owl> rdf:type owl:Ontology ;
+                                           owl:imports <http://example.com/cancers.owl> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://example.com/cancers.owl/has_cancer
+:has_cancer rdf:type owl:ObjectProperty .
+
+
+###  http://example.com/cancers.owl/has_comorbidity
+:has_comorbidity rdf:type owl:ObjectProperty .
+
+
+###  http://example.com/cancers.owl/has_sex
+:has_sex rdf:type owl:ObjectProperty .
+
+
+###  http://example.com/cancers.owl/has_social_habit
+:has_social_habit rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://example.com/cancers.owl/asthma_10
+:asthma_10 rdf:type owl:NamedIndividual ,
+                    :asthma .
+
+
+###  http://example.com/cancers.owl/asthma_11
+:asthma_11 rdf:type owl:NamedIndividual ,
+                    :asthma .
+
+
+###  http://example.com/cancers.owl/asthma_13
+:asthma_13 rdf:type owl:NamedIndividual ,
+                    :asthma .
+
+
+###  http://example.com/cancers.owl/asthma_17
+:asthma_17 rdf:type owl:NamedIndividual ,
+                    :asthma .
+
+
+###  http://example.com/cancers.owl/asthma_21
+:asthma_21 rdf:type owl:NamedIndividual ,
+                    :asthma .
+
+
+###  http://example.com/cancers.owl/asthma_24
+:asthma_24 rdf:type owl:NamedIndividual ,
+                    :asthma .
+
+
+###  http://example.com/cancers.owl/asthma_3
+:asthma_3 rdf:type owl:NamedIndividual ,
+                   :asthma .
+
+
+###  http://example.com/cancers.owl/asthma_30
+:asthma_30 rdf:type owl:NamedIndividual ,
+                    :asthma .
+
+
+###  http://example.com/cancers.owl/asthma_33
+:asthma_33 rdf:type owl:NamedIndividual ,
+                    :asthma .
+
+
+###  http://example.com/cancers.owl/asthma_39
+:asthma_39 rdf:type owl:NamedIndividual ,
+                    :asthma .
+
+
+###  http://example.com/cancers.owl/asthma_40
+:asthma_40 rdf:type owl:NamedIndividual ,
+                    :asthma .
+
+
+###  http://example.com/cancers.owl/asthma_8
+:asthma_8 rdf:type owl:NamedIndividual ,
+                   :asthma .
+
+
+###  http://example.com/cancers.owl/castration_resistant_prostate_cancer_1
+:castration_resistant_prostate_cancer_1 rdf:type owl:NamedIndividual ,
+                                                 :castration_resistant_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_resistant_prostate_cancer_10
+:castration_resistant_prostate_cancer_10 rdf:type owl:NamedIndividual ,
+                                                  :castration_resistant_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_resistant_prostate_cancer_27
+:castration_resistant_prostate_cancer_27 rdf:type owl:NamedIndividual ,
+                                                  :castration_resistant_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_resistant_prostate_cancer_28
+:castration_resistant_prostate_cancer_28 rdf:type owl:NamedIndividual ,
+                                                  :castration_resistant_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_resistant_prostate_cancer_5
+:castration_resistant_prostate_cancer_5 rdf:type owl:NamedIndividual ,
+                                                 :castration_resistant_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_sensitive_prostate_cancer_18
+:castration_sensitive_prostate_cancer_18 rdf:type owl:NamedIndividual ,
+                                                  :castration_sensitive_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_sensitive_prostate_cancer_23
+:castration_sensitive_prostate_cancer_23 rdf:type owl:NamedIndividual ,
+                                                  :castration_sensitive_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_sensitive_prostate_cancer_25
+:castration_sensitive_prostate_cancer_25 rdf:type owl:NamedIndividual ,
+                                                  :castration_sensitive_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_sensitive_prostate_cancer_29
+:castration_sensitive_prostate_cancer_29 rdf:type owl:NamedIndividual ,
+                                                  :castration_sensitive_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_sensitive_prostate_cancer_38
+:castration_sensitive_prostate_cancer_38 rdf:type owl:NamedIndividual ,
+                                                  :castration_sensitive_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_sensitive_prostate_cancer_42
+:castration_sensitive_prostate_cancer_42 rdf:type owl:NamedIndividual ,
+                                                  :castration_sensitive_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_sensitive_prostate_cancer_45
+:castration_sensitive_prostate_cancer_45 rdf:type owl:NamedIndividual ,
+                                                  :castration_sensitive_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_sensitive_prostate_cancer_49
+:castration_sensitive_prostate_cancer_49 rdf:type owl:NamedIndividual ,
+                                                  :castration_sensitive_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/castration_sensitive_prostate_cancer_8
+:castration_sensitive_prostate_cancer_8 rdf:type owl:NamedIndividual ,
+                                                 :castration_sensitive_prostate_cancer .
+
+
+###  http://example.com/cancers.owl/cervical_cancer_13
+:cervical_cancer_13 rdf:type owl:NamedIndividual ,
+                             :cervical_cancer .
+
+
+###  http://example.com/cancers.owl/cervical_cancer_30
+:cervical_cancer_30 rdf:type owl:NamedIndividual ,
+                             :cervical_cancer .
+
+
+###  http://example.com/cancers.owl/cervical_cancer_32
+:cervical_cancer_32 rdf:type owl:NamedIndividual ,
+                             :cervical_cancer .
+
+
+###  http://example.com/cancers.owl/cervical_cancer_37
+:cervical_cancer_37 rdf:type owl:NamedIndividual ,
+                             :cervical_cancer .
+
+
+###  http://example.com/cancers.owl/cervical_cancer_40
+:cervical_cancer_40 rdf:type owl:NamedIndividual ,
+                             :cervical_cancer .
+
+
+###  http://example.com/cancers.owl/cervical_cancer_44
+:cervical_cancer_44 rdf:type owl:NamedIndividual ,
+                             :cervical_cancer .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_carcinoma_20
+:fallopian_tube_carcinoma_20 rdf:type owl:NamedIndividual ,
+                                      :fallopian_tube_carcinoma .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_carcinoma_24
+:fallopian_tube_carcinoma_24 rdf:type owl:NamedIndividual ,
+                                      :fallopian_tube_carcinoma .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_carcinoma_33
+:fallopian_tube_carcinoma_33 rdf:type owl:NamedIndividual ,
+                                      :fallopian_tube_carcinoma .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_carcinoma_46
+:fallopian_tube_carcinoma_46 rdf:type owl:NamedIndividual ,
+                                      :fallopian_tube_carcinoma .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_carcinoma_50
+:fallopian_tube_carcinoma_50 rdf:type owl:NamedIndividual ,
+                                      :fallopian_tube_carcinoma .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_carcinoma_9
+:fallopian_tube_carcinoma_9 rdf:type owl:NamedIndividual ,
+                                     :fallopian_tube_carcinoma .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_sarcoma_2
+:fallopian_tube_sarcoma_2 rdf:type owl:NamedIndividual ,
+                                   :fallopian_tube_sarcoma .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_sarcoma_34
+:fallopian_tube_sarcoma_34 rdf:type owl:NamedIndividual ,
+                                    :fallopian_tube_sarcoma .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_sarcoma_36
+:fallopian_tube_sarcoma_36 rdf:type owl:NamedIndividual ,
+                                    :fallopian_tube_sarcoma .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_sarcoma_41
+:fallopian_tube_sarcoma_41 rdf:type owl:NamedIndividual ,
+                                    :fallopian_tube_sarcoma .
+
+
+###  http://example.com/cancers.owl/fallopian_tube_sarcoma_43
+:fallopian_tube_sarcoma_43 rdf:type owl:NamedIndividual ,
+                                    :fallopian_tube_sarcoma .
+
+
+###  http://example.com/cancers.owl/female_11
+:female_11 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_13
+:female_13 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_2
+:female_2 rdf:type owl:NamedIndividual ,
+                   :female .
+
+
+###  http://example.com/cancers.owl/female_20
+:female_20 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_24
+:female_24 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_30
+:female_30 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_31
+:female_31 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_32
+:female_32 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_33
+:female_33 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_34
+:female_34 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_35
+:female_35 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_36
+:female_36 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_37
+:female_37 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_4
+:female_4 rdf:type owl:NamedIndividual ,
+                   :female .
+
+
+###  http://example.com/cancers.owl/female_40
+:female_40 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_41
+:female_41 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_43
+:female_43 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_44
+:female_44 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_46
+:female_46 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_50
+:female_50 rdf:type owl:NamedIndividual ,
+                    :female .
+
+
+###  http://example.com/cancers.owl/female_7
+:female_7 rdf:type owl:NamedIndividual ,
+                   :female .
+
+
+###  http://example.com/cancers.owl/female_9
+:female_9 rdf:type owl:NamedIndividual ,
+                   :female .
+
+
+###  http://example.com/cancers.owl/heaver_drinker_11
+:heaver_drinker_11 rdf:type owl:NamedIndividual ,
+                            :heaver_drinker .
+
+
+###  http://example.com/cancers.owl/heaver_drinker_16
+:heaver_drinker_16 rdf:type owl:NamedIndividual ,
+                            :heaver_drinker .
+
+
+###  http://example.com/cancers.owl/heaver_drinker_22
+:heaver_drinker_22 rdf:type owl:NamedIndividual ,
+                            :heaver_drinker .
+
+
+###  http://example.com/cancers.owl/heaver_drinker_28
+:heaver_drinker_28 rdf:type owl:NamedIndividual ,
+                            :heaver_drinker .
+
+
+###  http://example.com/cancers.owl/heaver_drinker_32
+:heaver_drinker_32 rdf:type owl:NamedIndividual ,
+                            :heaver_drinker .
+
+
+###  http://example.com/cancers.owl/heaver_drinker_38
+:heaver_drinker_38 rdf:type owl:NamedIndividual ,
+                            :heaver_drinker .
+
+
+###  http://example.com/cancers.owl/heaver_drinker_39
+:heaver_drinker_39 rdf:type owl:NamedIndividual ,
+                            :heaver_drinker .
+
+
+###  http://example.com/cancers.owl/heaver_drinker_6
+:heaver_drinker_6 rdf:type owl:NamedIndividual ,
+                           :heaver_drinker .
+
+
+###  http://example.com/cancers.owl/hypertension_14
+:hypertension_14 rdf:type owl:NamedIndividual ,
+                          :hypertension .
+
+
+###  http://example.com/cancers.owl/hypertension_2
+:hypertension_2 rdf:type owl:NamedIndividual ,
+                         :hypertension .
+
+
+###  http://example.com/cancers.owl/hypertension_20
+:hypertension_20 rdf:type owl:NamedIndividual ,
+                          :hypertension .
+
+
+###  http://example.com/cancers.owl/hypertension_28
+:hypertension_28 rdf:type owl:NamedIndividual ,
+                          :hypertension .
+
+
+###  http://example.com/cancers.owl/hypertension_29
+:hypertension_29 rdf:type owl:NamedIndividual ,
+                          :hypertension .
+
+
+###  http://example.com/cancers.owl/hypertension_32
+:hypertension_32 rdf:type owl:NamedIndividual ,
+                          :hypertension .
+
+
+###  http://example.com/cancers.owl/hypertension_42
+:hypertension_42 rdf:type owl:NamedIndividual ,
+                          :hypertension .
+
+
+###  http://example.com/cancers.owl/hypertension_44
+:hypertension_44 rdf:type owl:NamedIndividual ,
+                          :hypertension .
+
+
+###  http://example.com/cancers.owl/hypertension_46
+:hypertension_46 rdf:type owl:NamedIndividual ,
+                          :hypertension .
+
+
+###  http://example.com/cancers.owl/hypertension_49
+:hypertension_49 rdf:type owl:NamedIndividual ,
+                          :hypertension .
+
+
+###  http://example.com/cancers.owl/lupus_1
+:lupus_1 rdf:type owl:NamedIndividual ,
+                  :lupus .
+
+
+###  http://example.com/cancers.owl/lupus_12
+:lupus_12 rdf:type owl:NamedIndividual ,
+                   :lupus .
+
+
+###  http://example.com/cancers.owl/lupus_15
+:lupus_15 rdf:type owl:NamedIndividual ,
+                   :lupus .
+
+
+###  http://example.com/cancers.owl/lupus_19
+:lupus_19 rdf:type owl:NamedIndividual ,
+                   :lupus .
+
+
+###  http://example.com/cancers.owl/lupus_26
+:lupus_26 rdf:type owl:NamedIndividual ,
+                   :lupus .
+
+
+###  http://example.com/cancers.owl/lupus_38
+:lupus_38 rdf:type owl:NamedIndividual ,
+                   :lupus .
+
+
+###  http://example.com/cancers.owl/lupus_47
+:lupus_47 rdf:type owl:NamedIndividual ,
+                   :lupus .
+
+
+###  http://example.com/cancers.owl/lupus_5
+:lupus_5 rdf:type owl:NamedIndividual ,
+                  :lupus .
+
+
+###  http://example.com/cancers.owl/lupus_6
+:lupus_6 rdf:type owl:NamedIndividual ,
+                  :lupus .
+
+
+###  http://example.com/cancers.owl/male_1
+:male_1 rdf:type owl:NamedIndividual ,
+                 :male .
+
+
+###  http://example.com/cancers.owl/male_10
+:male_10 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_12
+:male_12 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_14
+:male_14 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_15
+:male_15 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_16
+:male_16 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_17
+:male_17 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_18
+:male_18 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_19
+:male_19 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_21
+:male_21 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_22
+:male_22 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_23
+:male_23 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_25
+:male_25 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_26
+:male_26 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_27
+:male_27 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_28
+:male_28 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_29
+:male_29 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_3
+:male_3 rdf:type owl:NamedIndividual ,
+                 :male .
+
+
+###  http://example.com/cancers.owl/male_38
+:male_38 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_39
+:male_39 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_42
+:male_42 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_45
+:male_45 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_47
+:male_47 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_48
+:male_48 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_49
+:male_49 rdf:type owl:NamedIndividual ,
+                  :male .
+
+
+###  http://example.com/cancers.owl/male_5
+:male_5 rdf:type owl:NamedIndividual ,
+                 :male .
+
+
+###  http://example.com/cancers.owl/male_6
+:male_6 rdf:type owl:NamedIndividual ,
+                 :male .
+
+
+###  http://example.com/cancers.owl/male_8
+:male_8 rdf:type owl:NamedIndividual ,
+                 :male .
+
+
+###  http://example.com/cancers.owl/non-drinker_21
+:non-drinker_21 rdf:type owl:NamedIndividual ,
+                         :non-drinker .
+
+
+###  http://example.com/cancers.owl/non-drinker_29
+:non-drinker_29 rdf:type owl:NamedIndividual ,
+                         :non-drinker .
+
+
+###  http://example.com/cancers.owl/non-drinker_3
+:non-drinker_3 rdf:type owl:NamedIndividual ,
+                        :non-drinker .
+
+
+###  http://example.com/cancers.owl/non-drinker_35
+:non-drinker_35 rdf:type owl:NamedIndividual ,
+                         :non-drinker .
+
+
+###  http://example.com/cancers.owl/non-drinker_49
+:non-drinker_49 rdf:type owl:NamedIndividual ,
+                         :non-drinker .
+
+
+###  http://example.com/cancers.owl/non-drinker_8
+:non-drinker_8 rdf:type owl:NamedIndividual ,
+                        :non-drinker .
+
+
+###  http://example.com/cancers.owl/non-drinker_9
+:non-drinker_9 rdf:type owl:NamedIndividual ,
+                        :non-drinker .
+
+
+###  http://example.com/cancers.owl/non-smoker_14
+:non-smoker_14 rdf:type owl:NamedIndividual ,
+                        :non-smoker .
+
+
+###  http://example.com/cancers.owl/non-smoker_17
+:non-smoker_17 rdf:type owl:NamedIndividual ,
+                        :non-smoker .
+
+
+###  http://example.com/cancers.owl/non-smoker_19
+:non-smoker_19 rdf:type owl:NamedIndividual ,
+                        :non-smoker .
+
+
+###  http://example.com/cancers.owl/non-smoker_2
+:non-smoker_2 rdf:type owl:NamedIndividual ,
+                       :non-smoker .
+
+
+###  http://example.com/cancers.owl/non-smoker_24
+:non-smoker_24 rdf:type owl:NamedIndividual ,
+                        :non-smoker .
+
+
+###  http://example.com/cancers.owl/non-smoker_25
+:non-smoker_25 rdf:type owl:NamedIndividual ,
+                        :non-smoker .
+
+
+###  http://example.com/cancers.owl/non-smoker_26
+:non-smoker_26 rdf:type owl:NamedIndividual ,
+                        :non-smoker .
+
+
+###  http://example.com/cancers.owl/non-smoker_30
+:non-smoker_30 rdf:type owl:NamedIndividual ,
+                        :non-smoker .
+
+
+###  http://example.com/cancers.owl/non-smoker_36
+:non-smoker_36 rdf:type owl:NamedIndividual ,
+                        :non-smoker .
+
+
+###  http://example.com/cancers.owl/non-smoker_43
+:non-smoker_43 rdf:type owl:NamedIndividual ,
+                        :non-smoker .
+
+
+###  http://example.com/cancers.owl/non-smoker_45
+:non-smoker_45 rdf:type owl:NamedIndividual ,
+                        :non-smoker .
+
+
+###  http://example.com/cancers.owl/non-smoker_47
+:non-smoker_47 rdf:type owl:NamedIndividual ,
+                        :non-smoker .
+
+
+###  http://example.com/cancers.owl/patient_1
+:patient_1 rdf:type owl:NamedIndividual ,
+                    :patient ;
+           :has_cancer :castration_resistant_prostate_cancer_1 ;
+           :has_comorbidity :lupus_1 ;
+           :has_sex :male_1 ;
+           :has_social_habit :smoker_1 .
+
+
+###  http://example.com/cancers.owl/patient_10
+:patient_10 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :castration_resistant_prostate_cancer_10 ;
+            :has_comorbidity :asthma_10 ;
+            :has_sex :male_10 ;
+            :has_social_habit :smoker_10 .
+
+
+###  http://example.com/cancers.owl/patient_11
+:patient_11 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :uterine_corpus_cancer_11 ;
+            :has_comorbidity :asthma_11 ;
+            :has_sex :female_11 ;
+            :has_social_habit :heaver_drinker_11 .
+
+
+###  http://example.com/cancers.owl/patient_12
+:patient_12 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :testicular_sarcoma_12 ;
+            :has_comorbidity :lupus_12 ;
+            :has_sex :male_12 ;
+            :has_social_habit :smoker_12 .
+
+
+###  http://example.com/cancers.owl/patient_13
+:patient_13 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :cervical_cancer_13 ;
+            :has_comorbidity :asthma_13 ;
+            :has_sex :female_13 ;
+            :has_social_habit :social_drinker_13 .
+
+
+###  http://example.com/cancers.owl/patient_14
+:patient_14 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :testicular_lymphoma_14 ;
+            :has_comorbidity :hypertension_14 ;
+            :has_sex :male_14 ;
+            :has_social_habit :non-smoker_14 .
+
+
+###  http://example.com/cancers.owl/patient_15
+:patient_15 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :testicular_leukemia_15 ;
+            :has_comorbidity :lupus_15 ;
+            :has_sex :male_15 ;
+            :has_social_habit :smoker_15 .
+
+
+###  http://example.com/cancers.owl/patient_16
+:patient_16 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :testicular_lymphoma_16 ;
+            :has_comorbidity :type_2_diabetes_16 ;
+            :has_sex :male_16 ;
+            :has_social_habit :heaver_drinker_16 .
+
+
+###  http://example.com/cancers.owl/patient_17
+:patient_17 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :testicular_sarcoma_17 ;
+            :has_comorbidity :asthma_17 ;
+            :has_sex :male_17 ;
+            :has_social_habit :non-smoker_17 .
+
+
+###  http://example.com/cancers.owl/patient_18
+:patient_18 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :castration_sensitive_prostate_cancer_18 ;
+            :has_comorbidity :type_2_diabetes_18 ;
+            :has_sex :male_18 ;
+            :has_social_habit :social_drinker_18 .
+
+
+###  http://example.com/cancers.owl/patient_19
+:patient_19 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :testicular_sarcoma_19 ;
+            :has_comorbidity :lupus_19 ;
+            :has_sex :male_19 ;
+            :has_social_habit :non-smoker_19 .
+
+
+###  http://example.com/cancers.owl/patient_2
+:patient_2 rdf:type owl:NamedIndividual ,
+                    :patient ;
+           :has_cancer :fallopian_tube_sarcoma_2 ;
+           :has_comorbidity :hypertension_2 ;
+           :has_sex :female_2 ;
+           :has_social_habit :non-smoker_2 .
+
+
+###  http://example.com/cancers.owl/patient_20
+:patient_20 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :fallopian_tube_carcinoma_20 ;
+            :has_comorbidity :hypertension_20 ;
+            :has_sex :female_20 ;
+            :has_social_habit :smoker_20 .
+
+
+###  http://example.com/cancers.owl/patient_21
+:patient_21 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :testicular_lymphoma_21 ;
+            :has_comorbidity :asthma_21 ;
+            :has_sex :male_21 ;
+            :has_social_habit :non-drinker_21 .
+
+
+###  http://example.com/cancers.owl/patient_22
+:patient_22 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :testicular_lymphoma_22 ;
+            :has_comorbidity :type_2_diabetes_22 ;
+            :has_sex :male_22 ;
+            :has_social_habit :heaver_drinker_22 .
+
+
+###  http://example.com/cancers.owl/patient_23
+:patient_23 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :castration_sensitive_prostate_cancer_23 ;
+            :has_comorbidity :type_2_diabetes_23 ;
+            :has_sex :male_23 ;
+            :has_social_habit :smoker_23 .
+
+
+###  http://example.com/cancers.owl/patient_24
+:patient_24 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :fallopian_tube_carcinoma_24 ;
+            :has_comorbidity :asthma_24 ;
+            :has_sex :female_24 ;
+            :has_social_habit :non-smoker_24 .
+
+
+###  http://example.com/cancers.owl/patient_25
+:patient_25 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :castration_sensitive_prostate_cancer_25 ;
+            :has_comorbidity :type_2_diabetes_25 ;
+            :has_sex :male_25 ;
+            :has_social_habit :non-smoker_25 .
+
+
+###  http://example.com/cancers.owl/patient_26
+:patient_26 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :testicular_leukemia_26 ;
+            :has_comorbidity :lupus_26 ;
+            :has_sex :male_26 ;
+            :has_social_habit :non-smoker_26 .
+
+
+###  http://example.com/cancers.owl/patient_27
+:patient_27 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :castration_resistant_prostate_cancer_27 ;
+            :has_comorbidity :type_1_diabetes_27 ;
+            :has_sex :male_27 ;
+            :has_social_habit :social_drinker_27 .
+
+
+###  http://example.com/cancers.owl/patient_28
+:patient_28 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :castration_resistant_prostate_cancer_28 ;
+            :has_comorbidity :hypertension_28 ;
+            :has_sex :male_28 ;
+            :has_social_habit :heaver_drinker_28 .
+
+
+###  http://example.com/cancers.owl/patient_29
+:patient_29 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :castration_sensitive_prostate_cancer_29 ;
+            :has_comorbidity :hypertension_29 ;
+            :has_sex :male_29 ;
+            :has_social_habit :non-drinker_29 .
+
+
+###  http://example.com/cancers.owl/patient_3
+:patient_3 rdf:type owl:NamedIndividual ,
+                    :patient ;
+           :has_cancer :testicular_leukemia_3 ;
+           :has_comorbidity :asthma_3 ;
+           :has_sex :male_3 ;
+           :has_social_habit :non-drinker_3 .
+
+
+###  http://example.com/cancers.owl/patient_30
+:patient_30 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :cervical_cancer_30 ;
+            :has_comorbidity :asthma_30 ;
+            :has_sex :female_30 ;
+            :has_social_habit :non-smoker_30 .
+
+
+###  http://example.com/cancers.owl/patient_31
+:patient_31 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :uterine_corpus_cancer_31 ;
+            :has_comorbidity :type_2_diabetes_31 ;
+            :has_sex :female_31 ;
+            :has_social_habit :social_drinker_31 .
+
+
+###  http://example.com/cancers.owl/patient_32
+:patient_32 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :cervical_cancer_32 ;
+            :has_comorbidity :hypertension_32 ;
+            :has_sex :female_32 ;
+            :has_social_habit :heaver_drinker_32 .
+
+
+###  http://example.com/cancers.owl/patient_33
+:patient_33 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :fallopian_tube_carcinoma_33 ;
+            :has_comorbidity :asthma_33 ;
+            :has_sex :female_33 ;
+            :has_social_habit :social_drinker_33 .
+
+
+###  http://example.com/cancers.owl/patient_34
+:patient_34 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :fallopian_tube_sarcoma_34 ;
+            :has_comorbidity :type_1_diabetes_34 ;
+            :has_sex :female_34 ;
+            :has_social_habit :smoker_34 .
+
+
+###  http://example.com/cancers.owl/patient_35
+:patient_35 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :uterine_corpus_cancer_35 ;
+            :has_comorbidity :type_2_diabetes_35 ;
+            :has_sex :female_35 ;
+            :has_social_habit :non-drinker_35 .
+
+
+###  http://example.com/cancers.owl/patient_36
+:patient_36 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :fallopian_tube_sarcoma_36 ;
+            :has_comorbidity :type_1_diabetes_36 ;
+            :has_sex :female_36 ;
+            :has_social_habit :non-smoker_36 .
+
+
+###  http://example.com/cancers.owl/patient_37
+:patient_37 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :cervical_cancer_37 ;
+            :has_comorbidity :type_1_diabetes_37 ;
+            :has_sex :female_37 ;
+            :has_social_habit :smoker_37 .
+
+
+###  http://example.com/cancers.owl/patient_38
+:patient_38 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :castration_sensitive_prostate_cancer_38 ;
+            :has_comorbidity :lupus_38 ;
+            :has_sex :male_38 ;
+            :has_social_habit :heaver_drinker_38 .
+
+
+###  http://example.com/cancers.owl/patient_39
+:patient_39 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :testicular_sarcoma_39 ;
+            :has_comorbidity :asthma_39 ;
+            :has_sex :male_39 ;
+            :has_social_habit :heaver_drinker_39 .
+
+
+###  http://example.com/cancers.owl/patient_4
+:patient_4 rdf:type owl:NamedIndividual ,
+                    :patient ;
+           :has_cancer :uterine_corpus_cancer_4 ;
+           :has_comorbidity :type_1_diabetes_4 ;
+           :has_sex :female_4 ;
+           :has_social_habit :social_drinker_4 .
+
+
+###  http://example.com/cancers.owl/patient_40
+:patient_40 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :cervical_cancer_40 ;
+            :has_comorbidity :asthma_40 ;
+            :has_sex :female_40 ;
+            :has_social_habit :social_drinker_40 .
+
+
+###  http://example.com/cancers.owl/patient_41
+:patient_41 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :fallopian_tube_sarcoma_41 ;
+            :has_comorbidity :type_1_diabetes_41 ;
+            :has_sex :female_41 ;
+            :has_social_habit :social_drinker_41 .
+
+
+###  http://example.com/cancers.owl/patient_42
+:patient_42 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :castration_sensitive_prostate_cancer_42 ;
+            :has_comorbidity :hypertension_42 ;
+            :has_sex :male_42 ;
+            :has_social_habit :social_drinker_42 .
+
+
+###  http://example.com/cancers.owl/patient_43
+:patient_43 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :fallopian_tube_sarcoma_43 ;
+            :has_comorbidity :type_1_diabetes_43 ;
+            :has_sex :female_43 ;
+            :has_social_habit :non-smoker_43 .
+
+
+###  http://example.com/cancers.owl/patient_44
+:patient_44 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :cervical_cancer_44 ;
+            :has_comorbidity :hypertension_44 ;
+            :has_sex :female_44 ;
+            :has_social_habit :social_drinker_44 .
+
+
+###  http://example.com/cancers.owl/patient_45
+:patient_45 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :castration_sensitive_prostate_cancer_45 ;
+            :has_comorbidity :type_2_diabetes_45 ;
+            :has_sex :male_45 ;
+            :has_social_habit :non-smoker_45 .
+
+
+###  http://example.com/cancers.owl/patient_46
+:patient_46 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :fallopian_tube_carcinoma_46 ;
+            :has_comorbidity :hypertension_46 ;
+            :has_sex :female_46 ;
+            :has_social_habit :smoker_46 .
+
+
+###  http://example.com/cancers.owl/patient_47
+:patient_47 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :testicular_lymphoma_47 ;
+            :has_comorbidity :lupus_47 ;
+            :has_sex :male_47 ;
+            :has_social_habit :non-smoker_47 .
+
+
+###  http://example.com/cancers.owl/patient_48
+:patient_48 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :testicular_lymphoma_48 ;
+            :has_comorbidity :type_2_diabetes_48 ;
+            :has_sex :male_48 ;
+            :has_social_habit :smoker_48 .
+
+
+###  http://example.com/cancers.owl/patient_49
+:patient_49 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :castration_sensitive_prostate_cancer_49 ;
+            :has_comorbidity :hypertension_49 ;
+            :has_sex :male_49 ;
+            :has_social_habit :non-drinker_49 .
+
+
+###  http://example.com/cancers.owl/patient_5
+:patient_5 rdf:type owl:NamedIndividual ,
+                    :patient ;
+           :has_cancer :castration_resistant_prostate_cancer_5 ;
+           :has_comorbidity :lupus_5 ;
+           :has_sex :male_5 ;
+           :has_social_habit :smoker_5 .
+
+
+###  http://example.com/cancers.owl/patient_50
+:patient_50 rdf:type owl:NamedIndividual ,
+                     :patient ;
+            :has_cancer :fallopian_tube_carcinoma_50 ;
+            :has_comorbidity :type_1_diabetes_50 ;
+            :has_sex :female_50 ;
+            :has_social_habit :smoker_50 .
+
+
+###  http://example.com/cancers.owl/patient_6
+:patient_6 rdf:type owl:NamedIndividual ,
+                    :patient ;
+           :has_cancer :testicular_leukemia_6 ;
+           :has_comorbidity :lupus_6 ;
+           :has_sex :male_6 ;
+           :has_social_habit :heaver_drinker_6 .
+
+
+###  http://example.com/cancers.owl/patient_7
+:patient_7 rdf:type owl:NamedIndividual ,
+                    :patient ;
+           :has_cancer :uterine_corpus_cancer_7 ;
+           :has_comorbidity :type_2_diabetes_7 ;
+           :has_sex :female_7 ;
+           :has_social_habit :smoker_7 .
+
+
+###  http://example.com/cancers.owl/patient_8
+:patient_8 rdf:type owl:NamedIndividual ,
+                    :patient ;
+           :has_cancer :castration_sensitive_prostate_cancer_8 ;
+           :has_comorbidity :asthma_8 ;
+           :has_sex :male_8 ;
+           :has_social_habit :non-drinker_8 .
+
+
+###  http://example.com/cancers.owl/patient_9
+:patient_9 rdf:type owl:NamedIndividual ,
+                    :patient ;
+           :has_cancer :fallopian_tube_carcinoma_9 ;
+           :has_comorbidity :type_2_diabetes_9 ;
+           :has_sex :female_9 ;
+           :has_social_habit :non-drinker_9 .
+
+
+###  http://example.com/cancers.owl/smoker_1
+:smoker_1 rdf:type owl:NamedIndividual ,
+                   :smoker .
+
+
+###  http://example.com/cancers.owl/smoker_10
+:smoker_10 rdf:type owl:NamedIndividual ,
+                    :smoker .
+
+
+###  http://example.com/cancers.owl/smoker_12
+:smoker_12 rdf:type owl:NamedIndividual ,
+                    :smoker .
+
+
+###  http://example.com/cancers.owl/smoker_15
+:smoker_15 rdf:type owl:NamedIndividual ,
+                    :smoker .
+
+
+###  http://example.com/cancers.owl/smoker_20
+:smoker_20 rdf:type owl:NamedIndividual ,
+                    :smoker .
+
+
+###  http://example.com/cancers.owl/smoker_23
+:smoker_23 rdf:type owl:NamedIndividual ,
+                    :smoker .
+
+
+###  http://example.com/cancers.owl/smoker_34
+:smoker_34 rdf:type owl:NamedIndividual ,
+                    :smoker .
+
+
+###  http://example.com/cancers.owl/smoker_37
+:smoker_37 rdf:type owl:NamedIndividual ,
+                    :smoker .
+
+
+###  http://example.com/cancers.owl/smoker_46
+:smoker_46 rdf:type owl:NamedIndividual ,
+                    :smoker .
+
+
+###  http://example.com/cancers.owl/smoker_48
+:smoker_48 rdf:type owl:NamedIndividual ,
+                    :smoker .
+
+
+###  http://example.com/cancers.owl/smoker_5
+:smoker_5 rdf:type owl:NamedIndividual ,
+                   :smoker .
+
+
+###  http://example.com/cancers.owl/smoker_50
+:smoker_50 rdf:type owl:NamedIndividual ,
+                    :smoker .
+
+
+###  http://example.com/cancers.owl/smoker_7
+:smoker_7 rdf:type owl:NamedIndividual ,
+                   :smoker .
+
+
+###  http://example.com/cancers.owl/social_drinker_13
+:social_drinker_13 rdf:type owl:NamedIndividual ,
+                            :social_drinker .
+
+
+###  http://example.com/cancers.owl/social_drinker_18
+:social_drinker_18 rdf:type owl:NamedIndividual ,
+                            :social_drinker .
+
+
+###  http://example.com/cancers.owl/social_drinker_27
+:social_drinker_27 rdf:type owl:NamedIndividual ,
+                            :social_drinker .
+
+
+###  http://example.com/cancers.owl/social_drinker_31
+:social_drinker_31 rdf:type owl:NamedIndividual ,
+                            :social_drinker .
+
+
+###  http://example.com/cancers.owl/social_drinker_33
+:social_drinker_33 rdf:type owl:NamedIndividual ,
+                            :social_drinker .
+
+
+###  http://example.com/cancers.owl/social_drinker_4
+:social_drinker_4 rdf:type owl:NamedIndividual ,
+                           :social_drinker .
+
+
+###  http://example.com/cancers.owl/social_drinker_40
+:social_drinker_40 rdf:type owl:NamedIndividual ,
+                            :social_drinker .
+
+
+###  http://example.com/cancers.owl/social_drinker_41
+:social_drinker_41 rdf:type owl:NamedIndividual ,
+                            :social_drinker .
+
+
+###  http://example.com/cancers.owl/social_drinker_42
+:social_drinker_42 rdf:type owl:NamedIndividual ,
+                            :social_drinker .
+
+
+###  http://example.com/cancers.owl/social_drinker_44
+:social_drinker_44 rdf:type owl:NamedIndividual ,
+                            :social_drinker .
+
+
+###  http://example.com/cancers.owl/testicular_leukemia_15
+:testicular_leukemia_15 rdf:type owl:NamedIndividual ,
+                                 :testicular_leukemia .
+
+
+###  http://example.com/cancers.owl/testicular_leukemia_26
+:testicular_leukemia_26 rdf:type owl:NamedIndividual ,
+                                 :testicular_leukemia .
+
+
+###  http://example.com/cancers.owl/testicular_leukemia_3
+:testicular_leukemia_3 rdf:type owl:NamedIndividual ,
+                                :testicular_leukemia .
+
+
+###  http://example.com/cancers.owl/testicular_leukemia_6
+:testicular_leukemia_6 rdf:type owl:NamedIndividual ,
+                                :testicular_leukemia .
+
+
+###  http://example.com/cancers.owl/testicular_lymphoma_14
+:testicular_lymphoma_14 rdf:type owl:NamedIndividual ,
+                                 :testicular_lymphoma .
+
+
+###  http://example.com/cancers.owl/testicular_lymphoma_16
+:testicular_lymphoma_16 rdf:type owl:NamedIndividual ,
+                                 :testicular_lymphoma .
+
+
+###  http://example.com/cancers.owl/testicular_lymphoma_21
+:testicular_lymphoma_21 rdf:type owl:NamedIndividual ,
+                                 :testicular_lymphoma .
+
+
+###  http://example.com/cancers.owl/testicular_lymphoma_22
+:testicular_lymphoma_22 rdf:type owl:NamedIndividual ,
+                                 :testicular_lymphoma .
+
+
+###  http://example.com/cancers.owl/testicular_lymphoma_47
+:testicular_lymphoma_47 rdf:type owl:NamedIndividual ,
+                                 :testicular_lymphoma .
+
+
+###  http://example.com/cancers.owl/testicular_lymphoma_48
+:testicular_lymphoma_48 rdf:type owl:NamedIndividual ,
+                                 :testicular_lymphoma .
+
+
+###  http://example.com/cancers.owl/testicular_sarcoma_12
+:testicular_sarcoma_12 rdf:type owl:NamedIndividual ,
+                                :testicular_sarcoma .
+
+
+###  http://example.com/cancers.owl/testicular_sarcoma_17
+:testicular_sarcoma_17 rdf:type owl:NamedIndividual ,
+                                :testicular_sarcoma .
+
+
+###  http://example.com/cancers.owl/testicular_sarcoma_19
+:testicular_sarcoma_19 rdf:type owl:NamedIndividual ,
+                                :testicular_sarcoma .
+
+
+###  http://example.com/cancers.owl/testicular_sarcoma_39
+:testicular_sarcoma_39 rdf:type owl:NamedIndividual ,
+                                :testicular_sarcoma .
+
+
+###  http://example.com/cancers.owl/type_1_diabetes_27
+:type_1_diabetes_27 rdf:type owl:NamedIndividual ,
+                             :type_1_diabetes .
+
+
+###  http://example.com/cancers.owl/type_1_diabetes_34
+:type_1_diabetes_34 rdf:type owl:NamedIndividual ,
+                             :type_1_diabetes .
+
+
+###  http://example.com/cancers.owl/type_1_diabetes_36
+:type_1_diabetes_36 rdf:type owl:NamedIndividual ,
+                             :type_1_diabetes .
+
+
+###  http://example.com/cancers.owl/type_1_diabetes_37
+:type_1_diabetes_37 rdf:type owl:NamedIndividual ,
+                             :type_1_diabetes .
+
+
+###  http://example.com/cancers.owl/type_1_diabetes_4
+:type_1_diabetes_4 rdf:type owl:NamedIndividual ,
+                            :type_1_diabetes .
+
+
+###  http://example.com/cancers.owl/type_1_diabetes_41
+:type_1_diabetes_41 rdf:type owl:NamedIndividual ,
+                             :type_1_diabetes .
+
+
+###  http://example.com/cancers.owl/type_1_diabetes_43
+:type_1_diabetes_43 rdf:type owl:NamedIndividual ,
+                             :type_1_diabetes .
+
+
+###  http://example.com/cancers.owl/type_1_diabetes_50
+:type_1_diabetes_50 rdf:type owl:NamedIndividual ,
+                             :type_1_diabetes .
+
+
+###  http://example.com/cancers.owl/type_2_diabetes_16
+:type_2_diabetes_16 rdf:type owl:NamedIndividual ,
+                             :type_2_diabetes .
+
+
+###  http://example.com/cancers.owl/type_2_diabetes_18
+:type_2_diabetes_18 rdf:type owl:NamedIndividual ,
+                             :type_2_diabetes .
+
+
+###  http://example.com/cancers.owl/type_2_diabetes_22
+:type_2_diabetes_22 rdf:type owl:NamedIndividual ,
+                             :type_2_diabetes .
+
+
+###  http://example.com/cancers.owl/type_2_diabetes_23
+:type_2_diabetes_23 rdf:type owl:NamedIndividual ,
+                             :type_2_diabetes .
+
+
+###  http://example.com/cancers.owl/type_2_diabetes_25
+:type_2_diabetes_25 rdf:type owl:NamedIndividual ,
+                             :type_2_diabetes .
+
+
+###  http://example.com/cancers.owl/type_2_diabetes_31
+:type_2_diabetes_31 rdf:type owl:NamedIndividual ,
+                             :type_2_diabetes .
+
+
+###  http://example.com/cancers.owl/type_2_diabetes_35
+:type_2_diabetes_35 rdf:type owl:NamedIndividual ,
+                             :type_2_diabetes .
+
+
+###  http://example.com/cancers.owl/type_2_diabetes_45
+:type_2_diabetes_45 rdf:type owl:NamedIndividual ,
+                             :type_2_diabetes .
+
+
+###  http://example.com/cancers.owl/type_2_diabetes_48
+:type_2_diabetes_48 rdf:type owl:NamedIndividual ,
+                             :type_2_diabetes .
+
+
+###  http://example.com/cancers.owl/type_2_diabetes_7
+:type_2_diabetes_7 rdf:type owl:NamedIndividual ,
+                            :type_2_diabetes .
+
+
+###  http://example.com/cancers.owl/type_2_diabetes_9
+:type_2_diabetes_9 rdf:type owl:NamedIndividual ,
+                            :type_2_diabetes .
+
+
+###  http://example.com/cancers.owl/uterine_corpus_cancer_11
+:uterine_corpus_cancer_11 rdf:type owl:NamedIndividual ,
+                                   :uterine_corpus_cancer .
+
+
+###  http://example.com/cancers.owl/uterine_corpus_cancer_31
+:uterine_corpus_cancer_31 rdf:type owl:NamedIndividual ,
+                                   :uterine_corpus_cancer .
+
+
+###  http://example.com/cancers.owl/uterine_corpus_cancer_35
+:uterine_corpus_cancer_35 rdf:type owl:NamedIndividual ,
+                                   :uterine_corpus_cancer .
+
+
+###  http://example.com/cancers.owl/uterine_corpus_cancer_4
+:uterine_corpus_cancer_4 rdf:type owl:NamedIndividual ,
+                                  :uterine_corpus_cancer .
+
+
+###  http://example.com/cancers.owl/uterine_corpus_cancer_7
+:uterine_corpus_cancer_7 rdf:type owl:NamedIndividual ,
+                                  :uterine_corpus_cancer .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,303 @@
+Prefix(:=<http://example.com/cancers.owl/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://example.com/cancers.owl>
+
+Declaration(Class(:alchohol_use))
+Declaration(Class(:asthma))
+Declaration(Class(:cancer))
+Declaration(Class(:castration_resistant_prostate_cancer))
+Declaration(Class(:castration_sensitive_prostate_cancer))
+Declaration(Class(:cervical_cancer))
+Declaration(Class(:comorbidity))
+Declaration(Class(:diabetes))
+Declaration(Class(:fallopian_tube_adenocarcinoma))
+Declaration(Class(:fallopian_tube_cancer))
+Declaration(Class(:fallopian_tube_carcinoma))
+Declaration(Class(:fallopian_tube_sarcoma))
+Declaration(Class(:female))
+Declaration(Class(:female_reproductive_system_cancer))
+Declaration(Class(:heaver_drinker))
+Declaration(Class(:hypertension))
+Declaration(Class(:lupus))
+Declaration(Class(:male))
+Declaration(Class(:male_reproductive_system_cancer))
+Declaration(Class(:non-drinker))
+Declaration(Class(:non-smoker))
+Declaration(Class(:patient))
+Declaration(Class(:prostate_cancer))
+Declaration(Class(:reproductive_sytem_cancer))
+Declaration(Class(:sex))
+Declaration(Class(:smoker))
+Declaration(Class(:smoking_status))
+Declaration(Class(:social_drinker))
+Declaration(Class(:social_habit))
+Declaration(Class(:testicular_cancer))
+Declaration(Class(:testicular_leukemia))
+Declaration(Class(:testicular_lymphoma))
+Declaration(Class(:testicular_sarcoma))
+Declaration(Class(:type_1_diabetes))
+Declaration(Class(:type_2_diabetes))
+Declaration(Class(:uterine_cancer))
+Declaration(Class(:uterine_corpus_cancer))
+Declaration(ObjectProperty(:has_cancer))
+Declaration(ObjectProperty(:has_comorbidity))
+Declaration(ObjectProperty(:has_sex))
+Declaration(ObjectProperty(:has_social_habit))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :has_cancer (:has_cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :has_cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :has_cancer "2023-06-02T23:34:58Z"^^xsd:dateTime)
+
+# Object Property: :has_comorbidity (:has_comorbidity)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :has_comorbidity "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :has_comorbidity "2023-06-02T23:35:06Z"^^xsd:dateTime)
+
+# Object Property: :has_sex (:has_sex)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :has_sex "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :has_sex "2023-06-02T23:36:27Z"^^xsd:dateTime)
+
+# Object Property: :has_social_habit (:has_social_habit)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :has_social_habit "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :has_social_habit "2023-06-02T23:35:26Z"^^xsd:dateTime)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :alchohol_use (:alchohol_use)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :alchohol_use "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :alchohol_use "2023-06-02T23:31:00Z"^^xsd:dateTime)
+SubClassOf(:alchohol_use :social_habit)
+
+# Class: :asthma (:asthma)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :asthma "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :asthma "2023-06-02T23:28:42Z"^^xsd:dateTime)
+SubClassOf(:asthma :comorbidity)
+
+# Class: :cancer (:cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :cancer "2023-06-02T23:05:27Z"^^xsd:dateTime)
+
+# Class: :castration_resistant_prostate_cancer (:castration_resistant_prostate_cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :castration_resistant_prostate_cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :castration_resistant_prostate_cancer "2023-06-02T23:09:30Z"^^xsd:dateTime)
+SubClassOf(:castration_resistant_prostate_cancer :prostate_cancer)
+
+# Class: :castration_sensitive_prostate_cancer (:castration_sensitive_prostate_cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :castration_sensitive_prostate_cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :castration_sensitive_prostate_cancer "2023-06-02T23:10:37Z"^^xsd:dateTime)
+SubClassOf(:castration_sensitive_prostate_cancer :prostate_cancer)
+
+# Class: :cervical_cancer (:cervical_cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :cervical_cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :cervical_cancer "2023-06-02T23:16:05Z"^^xsd:dateTime)
+SubClassOf(:cervical_cancer :uterine_cancer)
+
+# Class: :comorbidity (:comorbidity)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :comorbidity "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :comorbidity "2023-06-02T23:26:35Z"^^xsd:dateTime)
+
+# Class: :diabetes (:diabetes)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :diabetes "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :diabetes "2023-06-02T23:26:42Z"^^xsd:dateTime)
+SubClassOf(:diabetes :comorbidity)
+
+# Class: :fallopian_tube_adenocarcinoma (:fallopian_tube_adenocarcinoma)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :fallopian_tube_adenocarcinoma "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :fallopian_tube_adenocarcinoma "2023-06-02T23:21:14Z"^^xsd:dateTime)
+SubClassOf(:fallopian_tube_adenocarcinoma :fallopian_tube_cancer)
+
+# Class: :fallopian_tube_cancer (:fallopian_tube_cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :fallopian_tube_cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :fallopian_tube_cancer "2023-06-02T23:14:14Z"^^xsd:dateTime)
+SubClassOf(:fallopian_tube_cancer :female_reproductive_system_cancer)
+
+# Class: :fallopian_tube_carcinoma (:fallopian_tube_carcinoma)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :fallopian_tube_carcinoma "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :fallopian_tube_carcinoma "2023-06-02T23:14:48Z"^^xsd:dateTime)
+SubClassOf(:fallopian_tube_carcinoma :fallopian_tube_cancer)
+
+# Class: :fallopian_tube_sarcoma (:fallopian_tube_sarcoma)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :fallopian_tube_sarcoma "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :fallopian_tube_sarcoma "2023-06-02T23:14:59Z"^^xsd:dateTime)
+SubClassOf(:fallopian_tube_sarcoma :fallopian_tube_cancer)
+
+# Class: :female (:female)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :female "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :female "2023-06-02T23:35:57Z"^^xsd:dateTime)
+SubClassOf(:female :sex)
+
+# Class: :female_reproductive_system_cancer (:female_reproductive_system_cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :female_reproductive_system_cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :female_reproductive_system_cancer "2023-06-02T23:07:51Z"^^xsd:dateTime)
+SubClassOf(:female_reproductive_system_cancer :reproductive_sytem_cancer)
+
+# Class: :heaver_drinker (:heaver_drinker)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :heaver_drinker "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :heaver_drinker "2023-06-02T23:31:20Z"^^xsd:dateTime)
+SubClassOf(:heaver_drinker :alchohol_use)
+
+# Class: :hypertension (:hypertension)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :hypertension "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :hypertension "2023-06-02T23:27:17Z"^^xsd:dateTime)
+SubClassOf(:hypertension :comorbidity)
+
+# Class: :lupus (:lupus)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :lupus "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :lupus "2023-06-02T23:28:09Z"^^xsd:dateTime)
+SubClassOf(:lupus :comorbidity)
+
+# Class: :male (:male)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :male "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :male "2023-06-02T23:35:52Z"^^xsd:dateTime)
+SubClassOf(:male :sex)
+
+# Class: :male_reproductive_system_cancer (:male_reproductive_system_cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :male_reproductive_system_cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :male_reproductive_system_cancer "2023-06-02T23:07:45Z"^^xsd:dateTime)
+SubClassOf(:male_reproductive_system_cancer :reproductive_sytem_cancer)
+
+# Class: :non-drinker (:non-drinker)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :non-drinker "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :non-drinker "2023-06-02T23:31:53Z"^^xsd:dateTime)
+SubClassOf(:non-drinker :alchohol_use)
+
+# Class: :non-smoker (:non-smoker)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :non-smoker "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :non-smoker "2023-06-02T23:30:49Z"^^xsd:dateTime)
+SubClassOf(:non-smoker :smoking_status)
+
+# Class: :patient (:patient)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :patient "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :patient "2023-06-02T23:05:03Z"^^xsd:dateTime)
+
+# Class: :prostate_cancer (:prostate_cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :prostate_cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :prostate_cancer "2023-06-02T23:08:05Z"^^xsd:dateTime)
+SubClassOf(:prostate_cancer :male_reproductive_system_cancer)
+
+# Class: :reproductive_sytem_cancer (:reproductive_sytem_cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :reproductive_sytem_cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :reproductive_sytem_cancer "2023-06-02T23:05:53Z"^^xsd:dateTime)
+SubClassOf(:reproductive_sytem_cancer :cancer)
+
+# Class: :sex (:sex)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :sex "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :sex "2023-06-02T23:35:45Z"^^xsd:dateTime)
+
+# Class: :smoker (:smoker)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :smoker "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :smoker "2023-06-02T23:30:39Z"^^xsd:dateTime)
+SubClassOf(:smoker :smoking_status)
+
+# Class: :smoking_status (:smoking_status)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :smoking_status "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :smoking_status "2023-06-02T23:30:34Z"^^xsd:dateTime)
+SubClassOf(:smoking_status :social_habit)
+
+# Class: :social_drinker (:social_drinker)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :social_drinker "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :social_drinker "2023-06-02T23:31:28Z"^^xsd:dateTime)
+SubClassOf(:social_drinker :alchohol_use)
+
+# Class: :social_habit (:social_habit)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :social_habit "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :social_habit "2023-06-02T23:30:23Z"^^xsd:dateTime)
+
+# Class: :testicular_cancer (:testicular_cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :testicular_cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :testicular_cancer "2023-06-02T23:11:48Z"^^xsd:dateTime)
+SubClassOf(:testicular_cancer :male_reproductive_system_cancer)
+
+# Class: :testicular_leukemia (:testicular_leukemia)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :testicular_leukemia "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :testicular_leukemia "2023-06-02T23:12:32Z"^^xsd:dateTime)
+SubClassOf(:testicular_leukemia :testicular_cancer)
+
+# Class: :testicular_lymphoma (:testicular_lymphoma)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :testicular_lymphoma "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :testicular_lymphoma "2023-06-02T23:12:58Z"^^xsd:dateTime)
+SubClassOf(:testicular_lymphoma :testicular_cancer)
+
+# Class: :testicular_sarcoma (:testicular_sarcoma)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :testicular_sarcoma "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :testicular_sarcoma "2023-06-02T23:13:36Z"^^xsd:dateTime)
+SubClassOf(:testicular_sarcoma :testicular_cancer)
+
+# Class: :type_1_diabetes (:type_1_diabetes)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :type_1_diabetes "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :type_1_diabetes "2023-06-02T23:26:55Z"^^xsd:dateTime)
+SubClassOf(:type_1_diabetes :diabetes)
+
+# Class: :type_2_diabetes (:type_2_diabetes)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :type_2_diabetes "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :type_2_diabetes "2023-06-02T23:27:05Z"^^xsd:dateTime)
+SubClassOf(:type_2_diabetes :diabetes)
+
+# Class: :uterine_cancer (:uterine_cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :uterine_cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :uterine_cancer "2023-06-02T23:15:53Z"^^xsd:dateTime)
+SubClassOf(:uterine_cancer :female_reproductive_system_cancer)
+
+# Class: :uterine_corpus_cancer (:uterine_corpus_cancer)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/contributor> :uterine_corpus_cancer "https://orcid.org/0000-0001-9625-1899")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> :uterine_corpus_cancer "2023-06-02T23:16:17Z"^^xsd:dateTime)
+SubClassOf(:uterine_corpus_cancer :uterine_cancer)
+
+
+)
